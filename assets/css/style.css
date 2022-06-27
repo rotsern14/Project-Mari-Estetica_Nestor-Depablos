@@ -373,8 +373,8 @@ label #cancel{
     /* Se aplica uso del boton menu */
       
       
-    #check:checked ~ nav#navbar ul{
-        left: 0%;
+    #check:checked ~ .navbar ul{
+        left: 0% !important;
     }
 
     #check:checked ~ label #btn{
