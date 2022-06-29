@@ -47,11 +47,51 @@ background-size: cover; */
     /* grid-area: top-bar; */
 
     background: #49b5e7;
+    font-size: 15px;
     color: #fff;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.6);
 
 }
 
-.container-topbar {
+#topbar .contact-info-top i{
+    font-size: 20px;
+}
+
+#topbar .contact-info-top a{
+    line-height: 0;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+
+#topbar .contact-info-top a:hover{
+    color: #fff;
+}
+
+#topbar .contact-info-top i{
+    color: #fff;
+    line-height: 0;
+    margin-right: 5px;
+    margin-left: 15px;
+
+}
+
+#topbar .social-links-top i{
+    font-size: 20px;
+}
+
+#topbar .social-links-top a{
+    color: rgba(255, 255, 255, 0.6);
+    padding: 4px 12px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+}
+
+#topbar .social-links-top a:hover{
+    color: #fff;
+}
+/* .container-topbar {
   display: flex;
   justify-content: space-between;
 
@@ -77,7 +117,7 @@ background-size: cover; */
 
 .container-topbar .social-links-top i {
   font-size: 18px;
-}
+} */
 
   
 /*--------------------------------------------------------------
