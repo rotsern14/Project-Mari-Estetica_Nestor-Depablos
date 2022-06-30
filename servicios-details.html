@@ -23,11 +23,13 @@
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+    <!-- Bootstrap CSS icons -->
+    <link href="assets/css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
     <!-- Archivo CSS Templai -->
     <link rel="stylesheet" href="assets/css/estilos.css">
 
     <!-- Archivo JS navbar -->
-
     <!-- <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script> -->
 
 
@@ -56,17 +58,22 @@
 
     <!-- Inicio del Header -->
 
-    <header id="header">
-        <div class="container-header">
-            <!-- aca se colocara el logon de la pagina, en caso contrario se usara un h1 para preferir texto en vez de logo -->
-    
-            <!-- <a href=""><img src="" alt=""></a> -->
-            <a href="index.html" class="logo">Mari Beauty Clinic</a>
-            <!-- menu de navegacion o navbar -->
+    <header id="header" class="header">
+        <div class="container d-flex align-items-center justify-content-between">
 
-            <!-- <button class="nav-toggle" aria-label="Abrir menu">
-                <li class="fas fa-bars"></li>
-            </button> -->
+            <h1 class="logo"><a href="index.html">Mari Beauty Clinic</a></h1>
+
+            <!-- En caso se puede usar una imagen png para el logon-->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/new-logo-mary-beauty.png" alt="" class="img-fluid"></a> -->
+
+
+            <!-- menu de navegacion o navbar ---ALTERNATIVA -->
+
+            <!-- <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa fa-bars" id="btn"></i>
+                <i class="fa fa-times" id="cancel"></i>
+            </label> -->
 
             <nav id="navbar" class="navbar">
                 <ul>
@@ -74,9 +81,9 @@
                         <li class="fas fa-bars"></li>
                     </button> -->
 
-                    <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto" href="index.html">Home</a></li>
                     <li><a class="nav-link scrollto" href="#nosotros">Nosotros</a></li>
-                    <li class="dropdown"><a class="navbar-link" href="#servicios"><span>Servicios</span><i class="bx bxs-chevron-down js-arrow arrow w"></i></i></a>
+                    <li class="dropdown"><a class="navbar-link active" href="#servicios"><span>Servicios</span><i class="bx bxs-chevron-down js-arrow arrow w"></i></i></a>
                         <ul>
                             <li class="dropdown"><a href="#"><span>Faciales</span><i class="bx bxs-chevron-right arrow more-arrow"></i></a>
                                 <ul>
@@ -108,7 +115,7 @@
                         <input type="submit" class="search-submit">
                     </form>
                 </div> -->
-             
+                <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
         <!-- Termina de navbar -->
         </div>
@@ -256,6 +263,9 @@
     <!-- Termina el Footer -->
 
     <a href="#navbar" class="scroll-up"><i class="bx bxs-up-arrow-square"></i></a>
+
+<!-- Templay main archivo JS-->
+<script src="assets/js/main.js"></script>
 
 <!-- Bootstrap JS CDN -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
