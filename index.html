@@ -28,7 +28,7 @@
     
     <!-- Bootstrap CSS icons -->
     <link href="assets/css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    
+
     <!-- Archivo CSS Templai -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -43,15 +43,15 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="topbar">
-    <div class="container-topbar">
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
 
-        <div class="contact-info-top">
-            <i class="bx bx-mail-send"></i><a href="mailto:contact@example.com">info@example.com</a>
-            <i class="bx bx-mobile-alt phone-icon"></i><a href="#">+1 5589 55488 55</a> 
+        <div class="contact-info-top d-flex align-items-center">
+            <i class="bx bx-mail-send"></i><a href="mailto:contact@example.com">info@maribeautyclinic.com.ar</a>
+            <i class="bx bx-mobile-alt phone-icon"></i><a href="#">+54 15 3040-5060</a> 
         </div>
 
-        <div class="social-links-top">
+        <div class="social-links-top d-none d-md-block">
             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
@@ -62,32 +62,26 @@
 </section>
 <!-- Termina Top Bar -->
 
-<!-- Header -->
-<header id="header">
-    <div class="container-header">
-        <!-- aca se colocara el logon de la pagina, en caso contrario se usara un h1 para preferir texto en vez de logo -->
+<!-- Inicio del Header -->
 
-        <!-- <a href=""><img src="" alt=""></a> -->
-        <a href="index.html" class="logo">
-  
-          Mari Beauty Clinic
+<header id="header" class="header">
+    <div class="container d-flex align-items-center justify-content-between">
 
-          <input type="checkbox" id="check">
-          <label for="check">
-              <i class="fa fa-bars" id="btn"></i>
-              <i class="fa fa-times" id="cancel"></i>
-          </label>
+        <h1 class="logo"><a href="index.html">Mari Beauty Clinic</a></h1>
 
-        </a>
-        <!-- menu de navegacion o navbar -->
+        <!-- En caso se puede usar una imagen png para el logon-->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/new-logo-mary-beauty.png" alt="" class="img-fluid"></a> -->
 
-        <!-- <button class="nav-toggle" aria-label="Abrir menu">
-            <li class="fas fa-bars"></li>
-        </button> -->
+
+        <!-- menu de navegacion o navbar ---ALTERNATIVA -->
+
+        <!-- <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fa fa-bars" id="btn"></i>
+            <i class="fa fa-times" id="cancel"></i>
+        </label> -->
 
         <nav id="navbar" class="navbar">
-
-
             <ul>
                 <!-- <button class="nav-toggle" aria-label="Abrir menu">
                     <li class="fas fa-bars"></li>
@@ -109,7 +103,7 @@
                         </li>
                         <li class="dropdown"><a href="#"><span>Corporales</span><i class="bx bxs-chevron-right arrow more-arrow"></i></a>
                             <ul>
-                                <li><a href="servicios-details.html">Criolipolisis</a></li>
+                                <li><a href="#criolipolisis">Criolipolisis</a></li>
                                 <li><a href="#himfu">Himfu</a></li>
                                 <li><a href="#lifting">Liftin de Gluteo</a></li>
                                 <li><a href="#depilaser">Depilaser</a></li>
@@ -127,7 +121,7 @@
                     <input type="submit" class="search-submit">
                 </form>
             </div> -->
-         
+            <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
     <!-- Termina de navbar -->
     </div>
