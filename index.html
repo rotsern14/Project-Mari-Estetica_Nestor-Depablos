@@ -80,7 +80,7 @@
 
                 <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
                 <li><a class="nav-link scrollto" href="#nosotros">Nosotros</a></li>
-                <li class="dropdown"><a class="navbar-link" href="#servicios"><span>Servicios</span><i class="bx bxs-chevron-down js-arrow arrow w"></i></i></a>
+                <li class="dropdown"><a class="navbar-link scrollto" href="#servicios"><span>Servicios</span><i class="bx bxs-chevron-down js-arrow arrow w"></i></i></a>
                     <ul>
                         <li class="dropdown"><a href="#"><span>Faciales</span><i class="bx bxs-chevron-right arrow more-arrow"></i></a>
                             <ul>
@@ -149,38 +149,38 @@
 
 <!---- Inicio de Sobre Nosotros ---->
 <section id="nosotros" class="nosotros"> 
-  <div class="container__nosotros">
+  <div class="container">
+    <div class="row">
+        <div class="nosotros-video col-xl-7 col-lg-6 d-flex justify-content-center align-items-stretch position-relative">
+          <video src="assets/video/video_preview_facial_treatment.mp4" controls poster="assets/img/new-srv-banner.jpg" class="video">
+            Tu navegador no admite el elemento <code>video</code>.
+          </video>
+        </div>
 
-    <div class="nosotros__video">
-      <video src="assets/video/video_preview_facial_treatment.mp4" controls poster="assets/img/new-srv-banner.jpg" class="video">
-        Tu navegador no admite el elemento <code>video</code>.
-      </video>
-    </div>
+        <div class="nosotros-icon col-xl-5 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+          <h3>Mari Beauty Clinic Tratamientos Esteticos</h3>
+          <p>Somos un Centro Estético especializados en tratamientos faciales regenerativos, antiage, manchas, imperfecciones, en otros y, Corporales contando con las mejores técnicas y tecnología en 
+            aparatología para reducir medidas, combatir la flacidez, atenua estrías, esculpir gluteos entre otros </p>
 
-    <div class="nosotros__tratamiento">
-      <h3>Mari Beauty Clinic Tratamientos Esteticos</h3>
-      <p>Somos un Centro Estético especializados en tratamientos faciales regenerativos, antiage, manchas, imperfecciones, en otros y, Corporales contando con las mejores técnicas y tecnología en 
-        aparatología para reducir medidas, combatir la flacidez, atenua estrías, esculpir gluteos entre otros </p>
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-spa"></i></div>
+            <h4 class="title"><a href="">Ciudado</a></h4>
+            <p class="nosotros-descrip">Somos Experto en el cuidado de la piel</p>
+          </div>
 
-      <div class="icon-box">
-        <div class="icon"><i class="bx bx-spa"></i></div>
-        <h4 class="titulo"><a href="">Ciudado</a></h4>
-        <p class="nosotros__descripcion">Somos Experto en el cuidado de la piel</p>
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxs-paste"></i></div>
+            <h4 class="title"><a href="">Consultas</a></h4>
+            <p class="nosotros-descrip">Brindamos un diagnóstico de acuerdo a las necesidades estéticas que quieres llegar poseer</p>
+          </div>
+
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-crown"></i></div>
+            <h4 class="title"><a href="">Equipamento </a></h4>
+            <p class="nosotros-descrip">Nuestro equipamento de vanguardia cuenta con las ultimas tecnología para el tratamientos estéticos</p>
+          </div>
+        </div>
       </div>
-
-      <div class="icon-box">
-        <div class="icon"><i class="bx bxs-paste"></i></div>
-        <h4 class="titulo"><a href="">Consultas</a></h4>
-        <p class="nosotros__descripcion">Brindamos un diagnóstico de acuerdo a las necesidades estéticas que quieres llegar poseer</p>
-      </div>
-
-      <div class="icon-box">
-        <div class="icon"><i class="bx bx-crown"></i></div>
-        <h4 class="titulo"><a href="">Equipamento </a></h4>
-        <p class="nosotros__descripcion">Nuestro equipamento de vanguardia cuenta con las ultimas tecnología para el tratamientos estéticos</p>
-      </div>
-
-    </div>
   </div>
 </section>
 <!---- Termina Sobre Nosotros ---->
@@ -191,6 +191,7 @@
   <div class="container">
 
     <div class="section-title">
+      <span>Servicios</span>
       <h2>Servicios</h2>
       <p>Apúntate a unos de nuestros tratamientos estéticos donde podrás reducir medidas, quitas imperfecciones y lucir una piel mucho más radiante.</p>
     </div>
@@ -227,7 +228,7 @@
           <img src="/assets/img/botox/botox-labios.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Botox</h4>
-            <p>Web</p>
+            <p>Reducir arrugas y líneas de expresión </p>
             <div class="portfolio-links">
               <a href="/assets/img/botox/botox-terapia.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -241,7 +242,7 @@
           <img src="/assets/img/Depilaser/depilacion-lase-definitiva.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Depilaser</h4>
-            <p>App</p>
+            <p>Eliminar vello en distintas zonas</p>
             <div class="portfolio-links">
               <a href="/assets/img/Depilaser/depilacion-lase-definitiva.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -255,7 +256,7 @@
           <img src="/assets/img/dermapen/metodo-facial-dermapen.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Dermapen</h4>
-            <p>Card</p>
+            <p>Mejorar aspecto y textura de la piel</p>
             <div class="portfolio-links">
               <a href="/assets/img/dermapen/metodo-facial-dermapen.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -269,7 +270,7 @@
           <img src="/assets/img/Himfu/himfu.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Himfu</h4>
-            <p>Web</p>
+            <p>Eliminar tejido graso subcutáneo</p>
             <div class="portfolio-links">
               <a href="/assets/img/Himfu/himfu.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -283,7 +284,7 @@
           <img src="/assets/img/lifting/aumento-gluteo.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Lifting</h4>
-            <p>App</p>
+            <p>Estiramiento de la piel para eliminar arrugas</p>
             <div class="portfolio-links">
               <a href="/assets/img/lifting/Aumento-de-gluteos-con-acido-hialuronico-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -297,7 +298,7 @@
           <img src="/assets/img/limpieza-facial/limpieza-facial.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Limpieza Facial</h4>
-            <p>Card</p>
+            <p>Limpieza y tratamiento rejuvenecedor </p>
             <div class="portfolio-links">
               <a href="/assets/img/limpieza-facial/limpieza-facial.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -311,7 +312,7 @@
           <img src="/assets/img/mesolifting/mesolifting-cuello.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Mesolifting</h4>
-            <p>Card</p>
+            <p>Rejuvenecimiento de la piel y atenuación de las arrugas</p>
             <div class="portfolio-links">
               <a href="/assets/img/mesolifting/mesolifting-cuello.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -325,7 +326,7 @@
           <img src="/assets/img/mesoterpia/mesoterapia-abdomen.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Mesoterapia</h4>
-            <p>Web</p>
+            <p>Reducir celulitis y tejido adiposo</p>
             <div class="portfolio-links">
               <a href="/assets/img/mesoterpia/mesoteparia-gluteo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -339,7 +340,7 @@
           <img src="/assets/img/velashape/Velashape-mari-beauty-clinic.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Velashape</h4>
-            <p>Web</p>
+            <p>Reducir el contorno corporal y la celulitis</p>
             <div class="portfolio-links">
               <a href="/assets/img/velashape/Velashape-mari-beauty-clinic.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -353,7 +354,7 @@
           <img src="/assets/img/velaslim/Radiofrecuencia-corporal.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Radiofrecuencia Corporal</h4>
-            <p>Web</p>
+            <p>Combatir la flacidez y la celulitis</p>
             <div class="portfolio-links">
               <a href="/assets/img/velaslim/Radiofrecuencia-corporal.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -367,7 +368,7 @@
           <img src="/assets/img/velaslim/radiofrecuencia-1.jpg" class="rounded img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Velaslim</h4>
-            <p>Web</p>
+            <p>Reducir circunferencia corporal y la celulitis</p>
             <div class="portfolio-links">
               <a href="/assets/img/velaslim/radiofrecuencia-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -390,6 +391,7 @@
        <div class="container">
 
         <div class="section-title">
+          <span>Paquetes</span>
           <h2>Paquetes</h2>
           <p>Contamos para vos las mejores combinaciones de tratamientos estéticos, contáctanos y adquiera uno de nuestros paquetes 
             exclusivos con hasta un 15% descuentos en cada una de las terapias</p>
@@ -498,17 +500,17 @@
     <div class="container">
 
       <div class="section-title">
-        <span>Team</span>
-        <h2>Team</h2>
-        <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        <span>Equipo</span>
+        <h2>Equipo</h2>
+        <p>Nos consolidamos como un equipo multidisciplinario que reúne las mejores prácticas y métodos de belleza, para así brindarle la mejor experiencia en los últimos tratamientos estéticos.</p>
       </div>
 
       <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
           <div class="member">
             <img src="/assets/img/equipo/perfil-esteticista-1.jpg" alt="">
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
+            <h4>Erika Campos</h4>
+            <span>Esteticista Profesional</span>
             <p>
               Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
             </p>
@@ -523,8 +525,8 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
           <div class="member">
             <img src="/assets/img/equipo/perfil-cosmetologa-2.jpg" alt="">
-            <h4>Sarah Jhinson</h4>
-            <span>Product Manager</span>
+            <h4>Jessica Lopez</h4>
+            <span>Cosmetologa</span>
             <p>
               Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
             </p>
@@ -539,8 +541,8 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
           <div class="member">
             <img src="/assets/img/equipo/perfil-cosmiatra-3.jpg" alt="">
-            <h4>William Anderson</h4>
-            <span>CTO</span>
+            <h4>Jennifer Perez</h4>
+            <span>Cosmiatra</span>
             <p>
               Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
             </p>
