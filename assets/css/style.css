@@ -124,6 +124,7 @@ h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);  
   padding: 20px 0;
+  z-index: 994;
 
   /* top:40px;
   position: fixed;
@@ -183,7 +184,7 @@ h2, h3, h4, h5, h6 {
 *******************/
 .navbar {
   padding: 0;
-  z-index: 100 !important;
+
 }
 .navbar ul {
   margin: 0;
@@ -529,12 +530,19 @@ width: 100%;
 }
 .portfolio .section-title{
   text-align:center;
+  padding-top: 30px;
+
+}
+
+.portfolio .section-title h2{
+  font-weight: 600;
 }
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
-.portfolio #portfolio-flters {
+
+/* .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 10px auto;
   list-style: none;
@@ -559,7 +567,8 @@ width: 100%;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
-}
+} */
+
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
@@ -606,7 +615,7 @@ width: 100%;
   border-top: 3px solid #bdc6ca;
   border-left: 3px solid #bdc6ca;
   transition: all 0.5s ease 0s;
-  z-index: 9994;
+  z-index: 94; /*valor plano z*/
 }
 .portfolio .portfolio-wrap .portfolio-info::after {
   display: block;
@@ -619,7 +628,7 @@ width: 100%;
   border-bottom: 3px solid #bdc6ca;
   border-right: 3px solid #bdc6ca;
   transition: all 0.5s ease 0s;
-  z-index: 9994;
+  z-index: 94; /*valor plano z*/
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
@@ -726,49 +735,68 @@ width: 100%;
 --------------------------------------------------------------*/
 #paquetes{
   width: 100%;
-  height: 80;
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23c6dfea' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  /* background-repeat: repeat; */
 
   /* border: 1px solid crimson; */
 }
 
-#paquetes .seccion-titulo{
-  margin: 50px 50px 30px 50px;
+#paquetes .section-title{
+  text-align:center;
+  padding-top: 30px;
+}
+
+#paquetes .section-title h2{
+  font-weight: 600;
+}
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team .member {
   text-align: center;
-  line-height: 1.6;
-  /* border: #0f394c solid 1px; */
- }
-
- #paquetes .contenedor-paquete .contenedor-paquetes-promo{
-   display: flex;
-   flex-flow: row wrap;
-   align-content: space-around;
-   width: 100%;
-   /* border: #1da2e0 solid 1px; */
-
- }
- .contenedor-paquete .contenedor-paquetes-promo .paquetes-item .paquetes-info{
-  /* border: #1c698c solid 1px; */
-  margin: 10px 10px;
-
- } 
-
- .contenedor-paquete .contenedor-paquetes-promo .paquetes-item .paquetes-info h4{
-   text-align: center;
-   font-size: 22px;
- }
- .contenedor-paquete .contenedor-paquetes-promo .paquetes-item{
-   width: 30%;
-   height: 30%;
-   padding-left: 20px;
- } 
-
- .contenedor-paquete .contenedor-paquetes-promo .paquetes-item .paquetes-info img {
-   width: 100%;
-   height: 100%;
-
-} 
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  background: #fff;
+}
+.team .member img {
+  max-width: 60%;
+  border-radius: 50%;
+  margin: 0 0 30px 0;
+}
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+.team .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+}
+.team .member .social {
+  margin-top: 15px;
+}
+.team .member .social a {
+  color: #919191;
+  transition: 0.3s;
+}
+.team .member .social a:hover {
+  color: #cc1616;
+}
+.team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
 
 
 /*--------------------------------------------------------------
