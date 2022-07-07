@@ -1,0 +1,81 @@
+
+
+/*--------------------------------------------------------------
+# Reset CSS 
+--------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+  
+  
+  body {
+    font-family: $font-body;
+    color: $body-color-font;
+    background-color: $body-bg-color;
+  }
+
+  a{
+    text-decoration: none;
+    color: $elem-color-primario;
+
+    &:hover{
+      color: $elem-color-secundario;
+    }
+  }
+  
+  // a {
+  //   text-decoration: none;
+  //   color: #49b5e7;
+  // }
+  
+  // a:hover {
+  //   color: #76c7ed;
+  //   text-decoration: none;
+  // }
+  
+  
+  h2, h3, h4, h5, h6 {
+    font-family: $font-element-h;
+  }
+  
+  section {
+    padding: 40px 0;
+    overflow: hidden;
+  }
+
+  .section-title {
+        text-align: center;
+        padding: 30px 0;
+        position: relative;
+
+              span{
+                position: absolute;
+                top: 30px;
+                color: $span-color;
+                left: 0;
+                right: 0;
+                z-index: 1;
+                font-weight: 700;
+                font-size: 52px;
+                text-transform: $text-mayus;
+                line-height: 0;
+
+              }
+              h2 {
+                font-size: 32px;
+                font-weight: 700px;
+                text-transform: $text-mayus;
+                margin-bottom: 20px;
+                padding-bottom: 0;
+                color: $h2-color;
+                position: relative;
+                z-index: 2;
+                
+              }
+    }

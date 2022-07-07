@@ -1,0 +1,23 @@
+{
+  "name": "mari_clicica_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotsern14/Project-Mari-Estetica_Nestor-Depablos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotsern14/Project-Mari-Estetica_Nestor-Depablos/issues"
+  },
+  "homepage": "https://github.com/rotsern14/Project-Mari-Estetica_Nestor-Depablos#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
