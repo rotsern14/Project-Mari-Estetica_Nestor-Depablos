@@ -5,9 +5,11 @@
 
 $body-color-font: #444444;
 $body-bg-color: #ffffff;
+$bg-blanco:#ffffff;
 $elem-color-primario: #49b5e7;
 $elem-color-secundario:#76c7ed;
 $color-fuente-prin:#fff;
+$color-fuente-logo:#0f394c;
 
 /*---SPAN color y text transform---*/
 $span-color: #f4f4f4;
@@ -18,11 +20,16 @@ $h2-color: #191919;
 
 
 /*---COLORES rgba con opacidad---*/ 
-$color-topbar: rgba(255, 255, 255, 0.6);
+$color-rgb-topbar: rgba(255, 255, 255, 0.6);
+$color-rgb-header:  0px 2px 15px rgba(0, 0, 0, 0.05);
+$color-rgb-elem: 0px 0px 30px rgba(127, 137, 161, 0.25);
 
 
-/*FUENTES*/
+/*--Fuentes--*/
 $font-body: "Open Sans", sans-serif;
 $font-element-h:"Dosis", sans-serif; 
+$font-element-logo: 'Lobster', cursive;
 $text-mayus: uppercase;
 
+/*--Transiciones--*/ 
+$trans-navbar-box-div: 0.3s;

@@ -1,0 +1,23 @@
+
+// Aplicando Propiedades de forma general en ciertos Elementos
+
+%narvar-a-focus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: $font-element-h;
+    font-size: 15px;
+    font-weight: 600;
+    color: $color-fuente-logo;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-transform: $text-mayus;
+}
+
+%navbar-elem-ul{
+    display: block;
+    position: absolute;
+    transition: 0.3s;
+
+}
