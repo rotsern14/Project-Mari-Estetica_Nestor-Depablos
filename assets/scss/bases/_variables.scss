@@ -1,14 +1,24 @@
 
 // VARIABLES PRINCIPALES
 
+/*---BODY color de fuente principal y secundario(hover)----*/ 
+
 $body-color-font: #444444;
 $body-bg-color: #ffffff;
 $elem-color-primario: #49b5e7;
 $elem-color-secundario:#76c7ed;
-$h2-color: #191919;
-$span-color: #f4f4f4;
 $color-fuente-prin:#fff;
-$sombra-color: rgba(255, 255, 255, 0.6);
+
+/*---SPAN color y text transform---*/
+$span-color: #f4f4f4;
+$text-uppercase:uppercase;  //new
+
+/*---H2 color---*/
+$h2-color: #191919;
+
+
+/*---COLORES rgba con opacidad---*/ 
+$color-topbar: rgba(255, 255, 255, 0.6);
 
 
 /*FUENTES*/
