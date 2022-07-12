@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*---BODY color de fuente principal y secundario(hover)----*/
 /*---SPAN color y text transform---*/
-/*---H2 color---*/
+/*---colorres h2 a h6---*/
 /*---COLORES rgba con opacidad---*/
 /*--Fuentes--*/
 /*--Transiciones--*/
@@ -77,7 +77,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #191919;
+  color: #0f394c;
   position: relative;
   z-index: 2;
 }
