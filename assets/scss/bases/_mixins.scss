@@ -1,0 +1,7 @@
+
+@mixin paquete-card-body ($bg-color, $borde-color) {
+    background-color: $bg-color;
+    border-color: $borde-color;
+}
+
+

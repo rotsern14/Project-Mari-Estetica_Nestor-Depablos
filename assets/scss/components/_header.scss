@@ -59,10 +59,30 @@
 
           a{
 
-            @extend %narvar-a-focus;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0 10px 30px;
+            font-size: 15px;
+            font-family: map-get($map: $navbar-a-focus-style, $key: font-Dosis);
+            font-weight: 600;
+            color: map-get($map: $navbar-a-focus-style, $key: color-logo-navbar);
+            white-space: nowrap;
+            transition: map-get($map: $navbar-a-focus-style, $key: transition-03s);
+            text-transform: map-get($map: $navbar-a-focus-style, $key:text-uppercase);
 
             &:focus{
-              @extend %narvar-a-focus;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 10px 0 10px 30px;
+              font-size: 15px;
+              font-family: map-get($map: $navbar-a-focus-style, $key: font-Dosis);
+              font-weight: 600;
+              color: map-get($map: $navbar-a-focus-style, $key: color-logo-navbar);
+              white-space: nowrap;
+              transition: map-get($map: $navbar-a-focus-style, $key: transition-03s);
+              text-transform: map-get($map: $navbar-a-focus-style, $key:text-uppercase);
             }
           }
   

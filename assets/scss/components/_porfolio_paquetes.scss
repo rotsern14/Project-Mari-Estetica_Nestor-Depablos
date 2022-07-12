@@ -10,13 +10,12 @@
   }
   
   #paquetes .card-body a{
-    background-color: #49b5e7;
-    border-color: #49b5e7;
+    @include paquete-card-body(#49b5e7,#49b5e7)
+    
   }
   
   #paquetes .card-body a:hover{
-    background-color: #1da2e0;
-    border-color: #1da2e0;
+    @include paquete-card-body(#1da2e0,#1da2e0)
   }
   
   

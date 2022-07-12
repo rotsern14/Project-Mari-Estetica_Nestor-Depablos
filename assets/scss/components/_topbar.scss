@@ -23,7 +23,7 @@
             a{
               line-height: 0;
               color: $color-rgb-topbar;
-              transition: 0.3s;
+              transition: $trans-navbar-box-div;
 
               &:hover{
                 color: $color-fuente-prin;
@@ -58,11 +58,11 @@
           }
 
           a{
-            color:rgba(255, 255, 255, 0.6);
+            color: $color-rgb-topbar;
             padding: 4px 5px;
             display: inline-block;
             line-height: 1px;
-            transition: 0.3s;
+            transition: $trans-navbar-box-div;
 
               &:hover{
                 color:$color-fuente-prin ;
