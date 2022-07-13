@@ -9,7 +9,7 @@
     <meta name="description" content="Empresa especializada en el uso de tratamiento estéticos que hace uso de la última tecnología y métodos de belleza, como por ejemplo: la reducción de grasa adiposa con criolipolisis, eliminación de vello con laser IPL o soprano, bótox, himfu para el moldeado del cuerpo, tratamiento faciales rejuvenecedores y mucho más.">
     <meta name="keywords" content="Criolipolisis, depilaser, botox, himfu, lifting, dermapen, limpieza facial, exfoliación, plasma, mesolifting, velaslim, radiofrecuencia, velashape">
     <!-- Titulo de la Pagina -->
-    <title>Mari Beuaty Clinic</title>
+    <title>Mari Beauty Clinic</title>
 
     <!-- Open graph -->
     <meta property="og:locale" content="es">
@@ -17,7 +17,7 @@
     <meta property="og:title" content="Mari Beuaty Clinic">
     <meta property="og:description" content="Empresa especializada en el uso de tratamiento estéticos que hace uso de la última tecnología y métodos de belleza, como: Criolipolisis, Himfu, Velashape, Botox y mucho más">
     <meta property="og:url" content="https://maribeautyclinic.000webhostapp.com/servicios-details.html">
-    <meta property="og:image" content="https://maribeautyclinic.000webhostapp.com/assets/img/hero-img-3.png.">
+    <meta property="og:image" content="https://maribeautyclinic.000webhostapp.com/assets/img/imagen-mujer-beuaty-3.png">
 
     <!-- Favicon -->
     <link rel="icon" href="assets/img/favicon.ico">
@@ -36,7 +36,6 @@
     <!-- CSS vendor Bootstrap y otros -->
     <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/vendor/glightbox/css/glightbox.min.css">
 
     <!-- Archivo CSS Templai -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -156,25 +155,35 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/criolipolisis/tratamientos-corporal-con-criolipolisis-perfectia-4.jpg" alt="tratamiento criolipolisis">
-                </div>
-
-                <!-- <div class="swiper-slide">
-                  <img src="assets/img/criolipolisis/que-es-coolsculpting-FB.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/criolipolisis/criolipolisis-ellos-4.jpg" alt="">
-                </div> -->
-
+          <div class="portfolio-details-slider col-lg-8">
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
-              <div class="swiper-pagination"></div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="assets/img/criolipolisis/tratamientos-corporal-con-criolipolisis-perfectia-4.jpg" class="d-block w-100" alt="tratamiento criolipolisis zona abdominal">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="assets/img/criolipolisis/que-es-coolsculpting-FB.jpg" class="d-block w-100" alt="tratamiento criolipolisis zona corporal">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="assets/img/criolipolisis/criolipolisis-ellos-4.jpg" class="d-block w-100" alt="tratamiento criolipolisis zona espalda">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+
           </div>
 
           <div class="col-lg-4">
@@ -289,6 +298,6 @@
 
 <!-- Archive JS vendor -->
 <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+
 
 <body>
