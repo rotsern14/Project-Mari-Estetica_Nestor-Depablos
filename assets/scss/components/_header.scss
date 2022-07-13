@@ -69,7 +69,7 @@
             color: map-get($map: $navbar-a-focus-style, $key: color-logo-navbar);
             white-space: nowrap;
             transition: map-get($map: $navbar-a-focus-style, $key: transition-03s);
-            text-transform: map-get($map: $navbar-a-focus-style, $key:text-uppercase);
+            text-transform: map-get($map: $navbar-a-focus-style, $key:text-uppercase );
 
             &:focus{
               display: flex;
@@ -82,7 +82,7 @@
               color: map-get($map: $navbar-a-focus-style, $key: color-logo-navbar);
               white-space: nowrap;
               transition: map-get($map: $navbar-a-focus-style, $key: transition-03s);
-              text-transform: map-get($map: $navbar-a-focus-style, $key:text-uppercase);
+              text-transform: map-get($map: $navbar-a-focus-style, $key:text-uppercase );
             }
           }
   
