@@ -57,7 +57,7 @@ section {
   text-transform: uppercase;
   line-height: 0;
 }
-.section-title h2 {
+.section-title h4 {
   font-size: 32px;
   font-weight: 700px;
   text-transform: uppercase;
@@ -444,7 +444,7 @@ section {
   margin-top: 40px;
 }
 
-#nosotros .nosotros-icon h3 {
+#nosotros .nosotros-icon h4 {
   font-size: 28px;
   font-weight: 700;
   color: #0f394c;
@@ -671,7 +671,7 @@ section {
   box-shadow: 0px 0 30px rgba(15, 57, 76, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.portfolio-details .portfolio-info h2 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -693,7 +693,7 @@ section {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.portfolio-details .portfolio-description h3 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -931,7 +931,7 @@ section {
   background: #ebf7fc;
 }
 
-#footer .footer-top .footer-contact h3 {
+#footer .footer-top .footer-contact h4 {
   font-weight: 700;
   font-family: "Lobster", cursive;
 }
