@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="estetica y belleza">
     <!-- Meta Tags -->
-    <meta name="description" content="Empresa especializada en el uso de tratamiento estéticos que hace uso de la última tecnología y métodos de belleza, como por ejemplo: la reducción de grasa adiposa con criolipolisis, eliminación de vello con laser IPL o soprano, bótox, himfu para el moldeado del cuerpo, tratamiento faciales rejuvenecedores y mucho más.">
+    <!-- <meta name="description" content="Empresa especializada en el uso de tratamiento estéticos que hace uso de la última tecnología y métodos de belleza, como por ejemplo: la reducción de grasa adiposa con criolipolisis, eliminación de vello con laser IPL o soprano, bótox, himfu para el moldeado del cuerpo, tratamiento faciales rejuvenecedores y mucho más."> -->
+    <meta name="description" content="Empresa especializada en el uso de los ultimos tratamientos estéticos y técnicas de belleza para tratar la grasa adiposa, flacidez, arrugas, vello y mucho más.">
     <meta name="keywords" content="Criolipolisis, depilaser, botox, himfu, lifting, dermapen, limpieza facial, exfoliación, plasma, mesolifting, velaslim, radiofrecuencia, velashape">
     <!-- Titulo de la Pagina -->
     <title>Mari Beauty Clinic</title>
@@ -39,6 +40,8 @@
     <!-- CSS vendor Bootstrap y otros -->
     <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/vendor/glightbox/css/glightbox.min.css">
+   
     
     <!-- Archivo CSS Templai -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -76,15 +79,8 @@
 
         <h1 class="logo"><a href="index.html">Mari Beauty Clinic</a></h1>
 
-        <!-- En caso se puede usar una imagen png para el logon-->
-        <!-- <a href="index.html" class="logo"><img src="assets/img/new-logo-mary-beauty.png" alt="" class="img-fluid"></a> -->
-
         <nav id="navbar" class="navbar">
             <ul>
-                <!-- <button class="nav-toggle" aria-label="Abrir menu">
-                    <li class="fas fa-bars"></li>
-                </button> -->
-
                 <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
                 <li><a class="nav-link scrollto" href="#nosotros">Nosotros</a></li>
                 <li class="dropdown"><a class="navbar-link scrollto" href="#portfolio"><span>Servicios</span><i class="bx bxs-chevron-down js-arrow arrow w"></i></i></a>
@@ -127,7 +123,7 @@
 </header>
 <!-- Termina de Header -->
 
-<!--Inicio de Section Home- tambien denominado Hero -->
+<!--Inicio de Section Home- también denominado Hero -->
 
 <section id="hero" class="d-flex align-items-center">
     <div class="container">
@@ -203,7 +199,7 @@
       <p>Apúntate a unos de nuestros tratamientos estéticos donde podrás reducir medidas, quitas imperfecciones y lucir una piel mucho más radiante.</p>
     </div>
 
-    <!-- <div class="row">
+    <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <ul id="portfolio-flters">
           <li data-filter="*" class="filter-active">All</li>
@@ -212,172 +208,172 @@
           <li data-filter=".filter-gluteos">Gluteos</li>
         </ul>
       </div>
-    </div> -->
+    </div>
 
-    <div class="row portfolio-pagination">
+    <div class="row portfolio-container">
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-corporal">
         <div class="portfolio-wrap">
           <img src="/assets/img/criolipolisis/que-es-coolsculpting-FB.jpg" class="rounded img-fluid" alt="imagenes criolipolisis">
           <div class="portfolio-info">
             <h4>Criolipolisis</h4>
             <p>Tratamiento reductor de grasa adiposa</p>
             <div class="portfolio-links">
-              <a href="/assets/img/criolipolisis/que-es-coolsculpting-FB.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Corporal 1"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/criolipolisis/que-es-coolsculpting-FB.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="servicios-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-facial">
         <div class="portfolio-wrap">
           <img src="/assets/img/botox/botox-labios.jpg" class="rounded img-fluid" alt="imagen Bótox">
           <div class="portfolio-info">
             <h4>Bótox</h4>
             <p>Reducir arrugas y líneas de expresión </p>
             <div class="portfolio-links">
-              <a href="/assets/img/botox/botox-terapia.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Facial 3"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/botox/botox-terapia.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-corporal">
         <div class="portfolio-wrap">
           <img src="/assets/img/Depilaser/depilacion-lase-definitiva.jpg" class="rounded img-fluid" alt="imagen Depilaser">
           <div class="portfolio-info">
             <h4>Depilaser</h4>
             <p>Eliminar vello en distintas zonas</p>
             <div class="portfolio-links">
-              <a href="/assets/img/Depilaser/depilacion-lase-definitiva.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Corporal 2"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/Depilaser/depilacion-lase-definitiva.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-facial">
         <div class="portfolio-wrap">
           <img src="/assets/img/dermapen/metodo-facial-dermapen.jpg" class="rounded img-fluid" alt="imagen Dermapen">
           <div class="portfolio-info">
             <h4>Dermapen</h4>
             <p>Mejorar aspecto y textura de la piel</p>
             <div class="portfolio-links">
-              <a href="/assets/img/dermapen/metodo-facial-dermapen.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Facial 2"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/dermapen/metodo-facial-dermapen.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-corporal">
         <div class="portfolio-wrap">
           <img src="/assets/img/Himfu/himfu.jpg" class="rounded img-fluid" alt="imagen Himfu">
           <div class="portfolio-info">
             <h4>Himfu</h4>
             <p>Eliminar tejido graso subcutáneo</p>
             <div class="portfolio-links">
-              <a href="/assets/img/Himfu/himfu.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Corporal 2"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/Himfu/himfu.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-gluteos">
         <div class="portfolio-wrap">
           <img src="/assets/img/lifting/aumento-gluteo.jpg" class="rounded img-fluid" alt="imagen Lifting">
           <div class="portfolio-info">
-            <h4>Lifting</h4>
+            <h4>Lifting De Gluteos</h4>
             <p>Estiramiento de la piel para eliminar arrugas</p>
             <div class="portfolio-links">
-              <a href="/assets/img/lifting/Aumento-de-gluteos-con-acido-hialuronico-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Facial 3"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/lifting/Aumento-de-gluteos-con-acido-hialuronico-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-facial">
         <div class="portfolio-wrap">
           <img src="/assets/img/limpieza-facial/limpieza-facial.jpg" class="rounded img-fluid" alt="imagen Limpieza Facial">
           <div class="portfolio-info">
             <h4>Limpieza Facial</h4>
             <p>Limpieza y tratamiento rejuvenecedor </p>
             <div class="portfolio-links">
-              <a href="/assets/img/limpieza-facial/limpieza-facial.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Facial 1"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/limpieza-facial/limpieza-facial.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-facial">
         <div class="portfolio-wrap">
           <img src="/assets/img/mesolifting/mesolifting-cuello.jpg" class="rounded img-fluid" alt="imagen Mesolifting">
           <div class="portfolio-info">
             <h4>Mesolifting</h4>
             <p>Rejuvenecimiento de la piel y atenuación de las arrugas</p>
             <div class="portfolio-links">
-              <a href="/assets/img/mesolifting/mesolifting-cuello.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Facial 3"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/mesolifting/mesolifting-cuello.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-corporal">
         <div class="portfolio-wrap">
           <img src="/assets/img/mesoterpia/mesoterapia-abdomen.jpg" class="rounded img-fluid" alt="imagen Mesoterapia">
           <div class="portfolio-info">
             <h4>Mesoterapia</h4>
             <p>Reducir celulitis y tejido adiposo</p>
             <div class="portfolio-links">
-              <a href="/assets/img/mesoterpia/mesoteparia-gluteo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Gluteos 3"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/mesoterpia/mesoteparia-gluteo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-corporal">
         <div class="portfolio-wrap">
           <img src="/assets/img/velashape/Velashape-mari-beauty-clinic.jpg" class="rounded img-fluid" alt="Imagen Velashape">
           <div class="portfolio-info">
             <h4>Velashape</h4>
             <p>Reducir el contorno corporal y la celulitis</p>
             <div class="portfolio-links">
-              <a href="/assets/img/velashape/Velashape-mari-beauty-clinic.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Gluteos 3"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/velashape/Velashape-mari-beauty-clinic.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-corporal">
         <div class="portfolio-wrap">
           <img src="/assets/img/velaslim/Radiofrecuencia-corporal.jpg" class="rounded img-fluid" alt="imagen Radiofrecuencia Corporal">
           <div class="portfolio-info">
             <h4>Radiofrecuencia Corporal</h4>
             <p>Combatir la flacidez y la celulitis</p>
             <div class="portfolio-links">
-              <a href="/assets/img/velaslim/Radiofrecuencia-corporal.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Facial 3"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/velaslim/Radiofrecuencia-corporal.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-corporal">
         <div class="portfolio-wrap">
           <img src="/assets/img/velaslim/radiofrecuencia-1.jpg" class="rounded img-fluid" alt="imagne Valaslim">
           <div class="portfolio-info">
             <h4>Velaslim</h4>
             <p>Reducir circunferencia corporal y la celulitis</p>
             <div class="portfolio-links">
-              <a href="/assets/img/velaslim/radiofrecuencia-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Corporal 3"><i class="bx bx-plus"></i></a>
+              <a href="/assets/img/velaslim/radiofrecuencia-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -386,7 +382,7 @@
 
     </div>
 
-    <div class="row porfolio-panina">
+    <!-- <div class="row porfolio-panina">
 
       <nav aria-label="Page navigation example">
         <ul class="pagination">
@@ -406,7 +402,7 @@
         </ul>
       </nav>
 
-    </div>
+    </div> -->
 
   </div>
 </section>
@@ -741,14 +737,16 @@
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<!-- Templay main archivo JS-->
-<script src="assets/js/main.js"></script>
-
 <!-- Bootstrap JS CDN -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 <!-- Archive JS vendor -->
 <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+<!-- Templay main archivo JS-->
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
