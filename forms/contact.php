@@ -54,7 +54,7 @@
 
   // REDIRECCIONANDO AL HEADER EL FORM
 
-  header("Location: servicios-details.html");
+  header("Location: https://maribeautyclinic.000webhostapp.com/pagina-interna.html");
 
 
 
