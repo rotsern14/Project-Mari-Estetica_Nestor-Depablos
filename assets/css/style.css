@@ -1168,5 +1168,85 @@ section {
 }
 
 /*--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+ # Page 404
+ --------------------------------------------------------------*/
+.page-error {
+  background-image: url(/assets/img/opps/scattered-forcefields.png);
+}
+
+.no-found-centrado {
+  height: 100vh;
+}
+
+.no-found {
+  text-align: center;
+  width: 45%;
+}
+
+.no-found img {
+  width: 100%;
+}
+
+.no-found h3.texto {
+  color: #898989;
+  padding-top: 0.75rem;
+}
+
+.no-found p {
+  font-size: 1.125rem; /*18px*/
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  color: #9d9191;
+  user-select: none;
+  text-align: center;
+}
+
+button {
+  padding: 0.625rem 1.25rem; /*10px 20px*/
+  background-color: #49b5e7;
+  border-color: #49b5e7;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: #fff;
+}
+
+button:hover {
+  background-color: #1da2e0;
+  border-color: #1da2e0;
+}
+
+@media (max-width: 991px) {
+  .no-found {
+    width: 100%;
+  }
+  .no-found img {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .no-found img {
+    width: 85%;
+  }
+}
+@media (max-width: 576px) {
+  .no-found p {
+    font-size: 1rem;
+  }
+  .no-found button {
+    padding: 0.43rem 0.93rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
