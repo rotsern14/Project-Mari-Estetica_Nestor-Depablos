@@ -36,7 +36,7 @@
 
 }
 
-button {
+button.inicio {
     padding: 0.625rem 1.25rem;   /*10px 20px*/
     background-color: #49b5e7;
     border-color: #49b5e7;
@@ -47,16 +47,16 @@ button {
     cursor: pointer;
 }
 
-button a{
+button.inicio a{
     color: #fff;
     text-decoration: none;
 }
 
-button a:hover{
+button.inicio a:hover{
     color: #fff;
 }
 
-button:hover{
+button.inicio:hover{
     background-color:#1da2e0;
     border-color: #1da2e0;
 
@@ -83,7 +83,7 @@ button:hover{
     .no-found p{
         font-size: 1rem;
     }
-    .no-found button{
+    .no-found button.inicio{
         padding: 0.43rem 0.93rem ;
     }
   }

@@ -41,6 +41,10 @@
     background: #49b5e7;
     color: #fff;
   }
+
+  .contact textarea.form-control{
+    resize: none;
+  }
   
   .contact .php-email-form .form-group {
     padding-bottom: 8px;
