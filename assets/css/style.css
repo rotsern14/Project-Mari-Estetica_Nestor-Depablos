@@ -862,6 +862,15 @@ section {
   resize: none;
 }
 
+.contact input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
 }
