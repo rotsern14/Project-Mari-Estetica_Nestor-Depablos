@@ -1185,7 +1185,7 @@ section {
  # Page 404
  --------------------------------------------------------------*/
 .page-error {
-  background-image: url(assets/img/opps/scattered-forcefields.png);
+  background-image: url(/assets/img/opps/scattered-forcefields.png);
 }
 
 .no-found-centrado {
