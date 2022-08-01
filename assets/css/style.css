@@ -29,6 +29,7 @@ a {
 }
 a:hover {
   color: #76c7ed;
+  text-decoration: none;
 }
 
 h2, h3, h4, h5, h6 {
