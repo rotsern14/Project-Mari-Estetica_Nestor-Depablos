@@ -145,7 +145,7 @@
                 ul{
                   top: 0;
                   left: calc(100% - 30px);
-                  visibility: hidden;
+                  visibility: visible;  /*campo mobile visible*/
                 }
 
                 &:hover > ul {
