@@ -145,7 +145,12 @@
                 ul{
                   top: 0;
                   left: calc(100% - 30px);
-                  visibility: visible;  /*campo mobile visible*/
+                  visibility: hidden;  
+
+                  @media (max-width: 991px) {
+                    visibility: visible; /*campo visible mobile*/
+  
+                  }
                 }
 
                 &:hover > ul {
@@ -154,6 +159,8 @@
                   left: 100%;
                   visibility: visible;
                 }
+
+
 
                 @media (max-width: 1366px) {
                   ul {

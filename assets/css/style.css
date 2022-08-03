@@ -242,7 +242,12 @@ section {
 .navbar .dropdown .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
-  visibility: visible; /*campo mobile visible*/
+  visibility: hidden;
+}
+@media (max-width: 991px) {
+  .navbar .dropdown .dropdown ul {
+    visibility: visible; /*campo visible mobile*/
+  }
 }
 .navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
